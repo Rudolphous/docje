@@ -1,2 +1,2 @@
-openssl aes-256-cbc -d -a -in ref.txt.enc -out ref.txt -k %SECRETKEY%
-del ref.txt.enc
+openssl aes-256-cbc -d -a -in ref.doc.enc -out ref.doc -k %SECRETKEY%
+del ref.doc.enc
